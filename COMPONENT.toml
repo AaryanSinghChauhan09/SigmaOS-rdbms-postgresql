@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-rdbms-postgresql"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "PostgreSQL integration for SigmaOS — client libraries, administration tools, and packaging"
+upstream = ["https://github.com/postgres/postgres"]
+
+[contract]
+provides = ["postgresql-client", "db-admin"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"

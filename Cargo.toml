@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_rdbms_postgresql"
+version = "0.1.0"
+edition = "2021"
+description = "PostgreSQL integration for SigmaOS — client libraries, administration tools, and packaging"
+
+[lib]
+name = "sigmaos_rdbms_postgresql"
+path = "src/lib.rs"
