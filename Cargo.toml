@@ -2,7 +2,8 @@
 name = "sigmaos_rdbms_postgresql"
 version = "0.1.0"
 edition = "2021"
-description = "PostgreSQL integration for SigmaOS — client libraries, administration tools, and packaging"
+license = "MIT"
+description = "SigmaOS rdbms-postgresql component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_rdbms_postgresql"
