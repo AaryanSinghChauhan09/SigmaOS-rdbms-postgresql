@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-rdbms-postgresql"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "SigmaOS PostgreSQL RDBMS component - Rust implementation with AAA tests"
 upstream = ["https://github.com/postgres/postgres"]
@@ -11,6 +11,6 @@ provides = ["postgresql-client", "db-admin"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles"
 next_milestone = "Verification test suite"
